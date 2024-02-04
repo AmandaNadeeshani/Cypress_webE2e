@@ -1,0 +1,19 @@
+{
+  "name": "cypress_webe2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaNadeeshani/Cypress_webE2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmandaNadeeshani/Cypress_webE2e/issues"
+  },
+  "homepage": "https://github.com/AmandaNadeeshani/Cypress_webE2e#readme"
+}
