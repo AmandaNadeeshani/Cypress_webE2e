@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addtocart.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/AmandaNadeeshani/Cypress_webE2e/issues"
   },
-  "homepage": "https://github.com/AmandaNadeeshani/Cypress_webE2e#readme"
+  "homepage": "https://github.com/AmandaNadeeshani/Cypress_webE2e#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
 }

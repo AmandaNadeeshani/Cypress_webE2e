@@ -1,0 +1,18 @@
+{
+    
+"login":{
+        "username" : "acceptance163@serce.com",
+        "password" : "acceptance163@serce.com"
+    },
+   
+ "product":{
+        "productname":"MacBook"
+    },
+
+ "message":{
+    "successmsg":"Success: You have added MacBook to your shopping cart!"
+   } ,
+    "cart":{
+        
+    }
+}
