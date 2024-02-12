@@ -9,7 +9,7 @@ describe('Test login',()=>{
     })
     
     it('login', ()=>{
-        homeobj.searchproduct(testData.product.productname);
+        HomePage.searchproduct(testData.product.productname);
         homeobj.addToCard()
         homeobj.verifySuccessMsg().should('contain',testData.message.successmsg).and('contain',testData.product.productname);
 
